@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dc291cc-337d-4c46-b7c8-5664f33db8b4" name="Default" comment="" />
+    <list default="true" id="9dc291cc-337d-4c46-b7c8-5664f33db8b4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MS3ProgrammingProject_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c3fd6f1f-faaa-407c-b9bf-6122414e7861.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f0842713-8caa-46ba-b34e-42ab556d2a58.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.rtf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MS3ProgrammingProject_jar/MS3ProgrammingProject.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/src/identifier.sqlite" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,12 +60,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Migrate_Data.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Migrate_Data.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Migrate_Data.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.rtf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadMe.rtf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -86,6 +102,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b6997a5e-ad6d-41d8-90ad-d61468b45e8d/console.sql" />
+        <option value="$PROJECT_DIR$/ReadMe.rtf" />
       </list>
     </option>
   </component>
@@ -111,8 +128,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,44 +236,46 @@
       <option name="presentableId" value="Default" />
       <updated>1528059508578</updated>
       <workItem from="1528059510002" duration="835000" />
+      <workItem from="1528060748748" duration="172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="835000" />
+    <option name="totallyTimeSpent" value="1007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="12" width="1260" height="756" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32776934" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32776934" />
-      <window_info id="Designer" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32776934" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.32936507" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32936507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32776934" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,16 +285,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c3fd6f1f-faaa-407c-b9bf-6122414e7861/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0842713-8caa-46ba-b34e-42ab556d2a58/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://b1659f70-ac1c-44f6-9bf8-9128a32bbd20/schema/main/table/fields">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/Migrate_Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -289,16 +302,36 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b6997a5e-ad6d-41d8-90ad-d61468b45e8d/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Log&lt;2018.06.03.17.06.58&gt;.txt">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c3fd6f1f-faaa-407c-b9bf-6122414e7861/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bad-data-&lt;2018.06.03.17.06.58&gt;.csv">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0842713-8caa-46ba-b34e-42ab556d2a58/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="das://b1659f70-ac1c-44f6-9bf8-9128a32bbd20/schema/main/table/fields" />
+    <entry file="das://b6997a5e-ad6d-41d8-90ad-d61468b45e8d/schema/main/table/fields">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b6997a5e-ad6d-41d8-90ad-d61468b45e8d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Log&lt;2018.06.03.17.06.58&gt;.txt" />
+    <entry file="file://$PROJECT_DIR$/bad-data-&lt;2018.06.03.17.06.58&gt;.csv" />
     <entry file="file://$PROJECT_DIR$/src/Migrate_Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -313,7 +346,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

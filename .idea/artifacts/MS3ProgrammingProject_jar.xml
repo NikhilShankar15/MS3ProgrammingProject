@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="MS3ProgrammingProject:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/MS3ProgrammingProject_jar</output-path>
-    <root id="archive" name="MS3ProgrammingProject.jar">
-      <element id="module-output" name="MS3ProgrammingProject" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/src/sqlite-jdbc-3.23.1.jar" path-in-jar="/" />
-    </root>
-  </artifact>
-</component>
