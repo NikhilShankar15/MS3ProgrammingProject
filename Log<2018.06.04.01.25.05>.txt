@@ -1,3 +1,0 @@
-Records Recieved: 6002
-Records Succeded: 4862
-Records Failed:1140

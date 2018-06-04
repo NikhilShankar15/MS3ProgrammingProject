@@ -53,7 +53,7 @@ public class Migrate_Data {
         int row = 1; //Keep track of which row in Database is being processed(debugging purposes)
         boolean cont=true; //Boolean for while loop
         try {
-            String url = "jdbc:sqlite:src/DataBase.sqlite";//creates database if none exists in src folder
+            String url = "jdbc:sqlite::memory:";//creates database if none exists in src folder
             con = DriverManager.getConnection(url);
             System.out.println("Connection Succesful");
 
@@ -133,6 +133,8 @@ public class Migrate_Data {
         pw.write("Records Recieved: "+records_recieved + "\n" + "Records Succeded: "+ records_succesful + "\n" + "Records Failed:" + records_failed);
         pw.close();
     try{
+        Statement stmt = con.createStatement();
+        stmt.executeUpdate("backup to backup.db");
         con.close();
     }catch (Exception e){
         System.out.println(e);
