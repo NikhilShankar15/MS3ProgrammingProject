@@ -31,7 +31,6 @@ public class Migrate_Data {
                     + ");";
             Statement stmt = con.createStatement();
             stmt.execute(sql_table);
-            System.out.println("Table Fields Created");
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
