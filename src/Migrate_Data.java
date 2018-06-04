@@ -11,6 +11,34 @@ import java.text.SimpleDateFormat;
 
 
 public class Migrate_Data {
+    private static int Create_Database(Connection con){
+        /**
+         * Only Create Table if First time running program
+         * If Database was set up before hand
+         */
+        try{
+            String sql_table = "CREATE TABLE IF NOT EXISTS Fields (\n"
+                    + " A TEXT,\n"
+                    + " B TEXT,\n"
+                    + " C TEXT,\n"
+                    + " D TEXT,\n"
+                    + " E TEXT,\n"
+                    + " F TEXT,\n"
+                    + " G TEXT,\n"
+                    + " H TEXT,\n"
+                    + " I TEXT,\n"
+                    + " J TEXT\n"
+                    + ");";
+            Statement stmt = con.createStatement();
+            stmt.execute(sql_table);
+            System.out.println("Table Fields Created");
+
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+            return 0;
+        }
+        return 1;
+    }
     public static void main(String[] args) throws FileNotFoundException {
         /**Create and Establish Connection to DB
          * Make Bad Data File
@@ -29,21 +57,13 @@ public class Migrate_Data {
             String url = "jdbc:sqlite:src/DataBase.sqlite";//creates database if none exists in src folder
             con = DriverManager.getConnection(url);
             System.out.println("Connection Succesful");
-            String sql_table = "CREATE TABLE IF NOT EXISTS Fields (\n"
-                            + " A TEXT,\n"
-                            + " B TEXT,\n"
-                            + " C TEXT,\n"
-                            + " D TEXT,\n"
-                            + " E TEXT,\n"
-                            + " F TEXT,\n"
-                            + " G TEXT,\n"
-                            + " H TEXT,\n"
-                            + " I TEXT,\n"
-                            + " J TEXT\n"
-                            + ");";
-            Statement stmt = con.createStatement();
-            stmt.execute(sql_table);
-            System.out.println("Table Fields Created");
+
+            /**
+             * Only Create Table if First time running program
+             * If Database was set up before hand
+             * comment out Create_Database(con)
+             */
+            Create_Database(con);
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
@@ -80,7 +100,6 @@ public class Migrate_Data {
                  */
                 InputArray.remove(5);
                 InputArray.set(4,temp);
-                System.out.println(row);
                 String sql = "INSERT INTO Fields(A,B,C,D,E,F,G,H,I,J) VALUES(?,?,?,?,?,?,?,?,?,?)";
 
 
@@ -120,6 +139,7 @@ public class Migrate_Data {
         System.out.println(e);
     }
     }
+
 
 
 }
