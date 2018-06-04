@@ -7,12 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dc291cc-337d-4c46-b7c8-5664f33db8b4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MS3ProgrammingProject_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c3fd6f1f-faaa-407c-b9bf-6122414e7861.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f0842713-8caa-46ba-b34e-42ab556d2a58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.rtf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MS3ProgrammingProject_jar/MS3ProgrammingProject.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/src/identifier.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b6997a5e-ad6d-41d8-90ad-d61468b45e8d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b6997a5e-ad6d-41d8-90ad-d61468b45e8d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS3ProgrammingProject/Migrate_Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS3ProgrammingProject/Migrate_Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS3ProgrammingProject/identifier.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Migrate_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrate_Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/identifier.sqlite" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,25 +38,32 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="identifier" type="feb32156:DbDataSourceImpl" />
+        <item name="DataBase [2]" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="identifier" type="feb32156:DbDataSourceImpl" />
+        <item name="DataBase [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="identifier" type="feb32156:DbDataSourceImpl" />
+        <item name="DataBase [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="identifier" type="feb32156:DbDataSourceImpl" />
+        <item name="DataBase [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
         <item name="Fields: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DataBase [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="sqlite_master: table" type="ffe0bd85:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -64,23 +73,17 @@
       <file leaf-file-name="Migrate_Data.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Migrate_Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="-354">
+              <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadMe.rtf" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReadMe.rtf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fields" pinned="false" current-in-tab="false">
-        <entry file="das://b6997a5e-ad6d-41d8-90ad-d61468b45e8d/schema/main/table/fields">
+      <file leaf-file-name="fields" pinned="false" current-in-tab="true">
+        <entry file="das://c424ed56-c7dc-4826-83f5-a0f83ea218a0/schema/main/table/fields">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -88,9 +91,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b6997a5e-ad6d-41d8-90ad-d61468b45e8d/console.sql">
+      <file leaf-file-name="bad-data-&lt;2018.06.04.01.25.05&gt;.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bad-data-&lt;2018.06.04.01.25.05&gt;.csv">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c424ed56-c7dc-4826-83f5-a0f83ea218a0/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ms3Interview.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ms3Interview.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-80474" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.rtf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadMe.rtf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -101,8 +129,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b6997a5e-ad6d-41d8-90ad-d61468b45e8d/console.sql" />
         <option value="$PROJECT_DIR$/ReadMe.rtf" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b6997a5e-ad6d-41d8-90ad-d61468b45e8d/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c424ed56-c7dc-4826-83f5-a0f83ea218a0/console.sql" />
+        <option value="$PROJECT_DIR$/src/Migrate_Data.java" />
       </list>
     </option>
   </component>
@@ -116,7 +146,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="12" />
+    <option name="x" value="15" />
+    <option name="y" value="8" />
     <option name="width" value="1260" />
     <option name="height" value="756" />
   </component>
@@ -128,8 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,11 +173,17 @@
               <item name="MS3ProgrammingProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MS3ProgrammingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MS3ProgrammingProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlite-jdbc-3.23.1.jar" type="ab9368bb:PsiFileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,33 +273,37 @@
       <option name="presentableId" value="Default" />
       <updated>1528059508578</updated>
       <workItem from="1528059510002" duration="835000" />
-      <workItem from="1528060748748" duration="172000" />
+      <workItem from="1528060748748" duration="219000" />
+      <workItem from="1528061620047" duration="212000" />
+      <workItem from="1528072539162" duration="1617000" />
+      <workItem from="1528074271304" duration="3508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1007000" />
+    <option name="totallyTimeSpent" value="6391000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="12" width="1260" height="756" extended-state="0" />
-    <editor active="true" />
+    <frame x="15" y="8" width="1260" height="756" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32776934" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32776934" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32776934" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32776934" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22619048" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32936507" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -274,8 +315,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32776934" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,18 +326,75 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Migrate_Data.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b6997a5e-ad6d-41d8-90ad-d61468b45e8d/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrate_Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b6997a5e-ad6d-41d8-90ad-d61468b45e8d/schema/main/table/fields" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b6997a5e-ad6d-41d8-90ad-d61468b45e8d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrate_Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b6997a5e-ad6d-41d8-90ad-d61468b45e8d/schema/main/table/fields" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b6997a5e-ad6d-41d8-90ad-d61468b45e8d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrate_Data.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="das://b6997a5e-ad6d-41d8-90ad-d61468b45e8d/schema/main/table/fields">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://b6997a5e-ad6d-41d8-90ad-d61468b45e8d/schema/main/table/fields" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b6997a5e-ad6d-41d8-90ad-d61468b45e8d/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -309,29 +405,55 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://b1659f70-ac1c-44f6-9bf8-9128a32bbd20/schema/main/table/fields" />
-    <entry file="das://b6997a5e-ad6d-41d8-90ad-d61468b45e8d/schema/main/table/fields">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Log&lt;2018.06.03.17.06.58&gt;.txt" />
+    <entry file="file://$PROJECT_DIR$/bad-data-&lt;2018.06.03.17.06.58&gt;.csv" />
+    <entry file="das://b6997a5e-ad6d-41d8-90ad-d61468b45e8d/schema/main/table/fields" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b6997a5e-ad6d-41d8-90ad-d61468b45e8d/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Log&lt;2018.06.03.17.06.58&gt;.txt" />
-    <entry file="file://$PROJECT_DIR$/bad-data-&lt;2018.06.03.17.06.58&gt;.csv" />
-    <entry file="file://$PROJECT_DIR$/src/Migrate_Data.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state relative-caret-position="132">
+          <caret line="554" selection-start-line="554" selection-end-line="554" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.rtf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ms3Interview.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80474" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c424ed56-c7dc-4826-83f5-a0f83ea218a0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bad-data-&lt;2018.06.04.01.25.05&gt;.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrate_Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-354">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c424ed56-c7dc-4826-83f5-a0f83ea218a0/schema/main/table/fields">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
